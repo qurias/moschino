@@ -1,7 +1,11 @@
 <template>
     <header id="masthead" class="site-header">
 		<div class="site-branding">
-			<h1 class="site-title"><a href="index.html" rel="home">Moschino</a></h1>
+			<h1 class="site-title">
+                <nuxt-link to="/" rel="home">
+                    Moschino
+                </nuxt-link>
+            </h1>
 			<h2 class="site-description">Minimalist Portfolio HTML Template</h2>
 		</div>
 		<nav id="site-navigation" class="main-navigation">
@@ -82,16 +86,11 @@ export default {
                         },
                         {
                             id: 9,
-                            name: 'Blog Article',
-                            url: '/blog-single'
-                        },
-                        {
-                            id: 10,
                             name: 'Shop Item',
                             url: '/shop-single'
                         },
                         {
-                            id: 11,
+                            id: 10,
                             name: 'Portfolio Category',
                             url: '/portfolio-category'
                         }

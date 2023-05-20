@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'moschino',
+    title: 'Moschino | Minimalist Free HTML Portfolio by WowThemes.net',
     htmlAttrs: {
       lang: 'en'
     },
